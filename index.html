@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p10_card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Marcellus&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .alegreya-sans-regular {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        }
+        .marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .card_profile{
+        padding: 20px;
+        width: 350px;
+        height: 550px;
+        background: #F7FE8E;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_profile .profile{
+        margin: 0 0 7px 0;
+        display: flex;
+        /*flex-direction: row; */
+        align-items: center;
+        width: 170px;
+        height: 240px;
+        border-radius: 170px;
+        overflow: hidden;
+        align-self: center;
+        justify-self: center;
+
+    }
+    .card_profile header{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        width: 100%;
+    }
+    .card_profile header h1{
+        margin: 0 0 7px 0;
+        font-size: 33px;
+        text-align: center;
+    }
+    .card_profile header p{
+        margin: 0 0 7px 0;
+        font-size: 33px;
+        text-align: center;
+    }
+    .card_profile header h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .card_profile footer{
+        border-top: 1px solid #000000;
+        padding: 20px 20px 0 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card_profile footer h3{
+        font-size: 15px;
+
+    }
+    .card_profile footer .icon{
+        width: 200px;
+        height: 200px;
+    }
+    </style>
+</head>
+<body>
+    <div class="card_profile">
+        <header>
+            <div class="profile">
+                <img src="196 Liam Gallagher 1994 Photos & High Res Pictures 1.jpg" alt="">
+            </div>
+            <div class="headers">
+                <h1 class="marcellus-regular">Dean Ambrose</h1>
+                <p class="marcellus-regular">-</p>
+                <h2 class="marcellus-regular">Financial Advisor <br>
+                    London, Uk</h2>
+            </div>
+        </header>
+        <footer>
+            <h3 class="alegreya-sans-regular">5.0 Rated by Clients</h3>
+            <div class="icon"></div>
+                <img src="Vector.svg" alt="">
+        </footer>
+    </div> 
+</body>
+</html>
